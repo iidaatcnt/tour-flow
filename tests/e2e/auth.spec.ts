@@ -1,9 +1,9 @@
 import { test, expect } from '@playwright/test'
 
 test.describe('認証フロー', () => {
-  test('未ログインで / にアクセスすると /login にリダイレクトされる', async ({ page }) => {
-    // cookieを持たない状態でトップにアクセス
-    await page.goto('/')
+  test('未ログインで /dashboard にアクセスすると /login にリダイレクトされる', async ({ page }) => {
+    // cookieを持たない状態でダッシュボードにアクセス
+    await page.goto('/dashboard')
     await expect(page).toHaveURL(/\/login/)
   })
 
