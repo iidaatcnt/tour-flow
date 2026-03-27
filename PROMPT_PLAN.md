@@ -10,7 +10,7 @@
 
 ### 🏗️ セットアップ
 
-- [ ] **P1-01: プロジェクト初期化**
+- [x] **P1-01: プロジェクト初期化**
   ```
   Next.js 14 (App Router, TypeScript strict) プロジェクトを作成してください。
   依存パッケージ: @supabase/ssr, @supabase/supabase-js, tailwindcss, shadcn/ui, resend, zod, react-hook-form
@@ -19,7 +19,7 @@
   完了後 git commit してください。
   ```
 
-- [ ] **P1-02: Supabase セットアップ**
+- [x] **P1-02: Supabase セットアップ**
   ```
   SPEC.md のデータベース設計に基づいて Supabase マイグレーションファイルを作成してください。
   全テーブル・制約・RLS ポリシーを含めてください。
