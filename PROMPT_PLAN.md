@@ -29,7 +29,7 @@
   完了後 npm run db:migrate && npm run db:seed が通ることを確認し、git commit してください。
   ```
 
-- [ ] **P1-03: 認証フロー**
+- [x] **P1-03: 認証フロー**
   ```
   Supabase Auth を使ったログインページ（/login）と middleware.ts を実装してください。
   - 未ログインは /login にリダイレクト
