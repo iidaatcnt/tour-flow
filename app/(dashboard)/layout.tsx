@@ -7,7 +7,7 @@ type DashboardLayoutProps = {
   children: ReactNode
 }
 
-export async function DashboardLayout({ children }: DashboardLayoutProps) {
+export default async function DashboardLayout({ children }: DashboardLayoutProps) {
   const supabase = await createClient()
   const { data: { user } } = await supabase.auth.getUser()
 
@@ -29,4 +29,3 @@ export async function DashboardLayout({ children }: DashboardLayoutProps) {
   )
 }
 
-export default DashboardLayout
