@@ -43,8 +43,6 @@ export function InquiryDetail({ inquiry, profiles }: InquiryDetailProps) {
   const [error, setError] = useState<string | null>(null)
 
   async function handleAssign() {
-    const { data: user } = await fetch('/api/me').then(r => r.json()).catch(() => ({ data: null }))
-    // For simplicity, use the first profile if we can't get current user
     const staffId = profiles[0]?.id
     if (!staffId) return
 

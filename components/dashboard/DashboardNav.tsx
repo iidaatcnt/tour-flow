@@ -47,12 +47,6 @@ export function DashboardNav({ profile }: DashboardNavProps) {
     router.push('/login')
   }
 
-  const statusLabels: Record<Profile['status'], string> = {
-    tour: 'ツアー中',
-    office: 'オフィス',
-    break: '休憩中',
-  }
-
   const statusColors: Record<Profile['status'], string> = {
     tour: 'bg-green-100 text-green-800',
     office: 'bg-blue-100 text-blue-800',

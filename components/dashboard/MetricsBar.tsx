@@ -10,8 +10,6 @@ export function MetricsBar({
   todayTourCount,
   pendingInquiryCount,
   photoProgress,
-  doneTourCount,
-  sentTourCount,
 }: MetricsBarProps) {
   return (
     <div className="grid grid-cols-3 gap-4">

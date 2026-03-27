@@ -1,7 +1,6 @@
 'use client'
 
 import { useState } from 'react'
-import Link from 'next/link'
 import { completeHandoff } from '@/lib/actions/handoffs'
 import type { Database } from '@/lib/supabase/types'
 
