@@ -21,6 +21,7 @@ const NAV_LINKS = [
   { href: '/handoff', label: '引き継ぎ' },
   { href: '/customers', label: '顧客リスト' },
   { href: '/field', label: 'フィールド' },
+  { href: '/help', label: '📖 使い方' },
 ]
 
 export function DashboardNav({ profile }: DashboardNavProps) {
